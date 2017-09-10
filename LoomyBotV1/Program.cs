@@ -17,7 +17,7 @@ namespace LoomyBotV1
 
         static async Task MainAsync(string[] args)
         {
-            discord = new DiscordClient(new DiscordConfig
+            discord = new DiscordClient(new DiscordConfiguration
             {
                 Token = "MzQ1NTI3MDQxMTExNjIxNjMz.DG8mAQ.O2rFq8upPaCY_cmehblZ212EdnQ",
                 TokenType = TokenType.Bot,
