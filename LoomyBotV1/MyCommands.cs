@@ -18,5 +18,13 @@ namespace LoomyBotV1
         {
             await ctx.RespondAsync("pong!");
         }
+
+        [Command("play7days")]
+        public async Task PlaySevenDays(CommandContext ctx)
+        {
+            await ctx.RespondAsync("Starting 7 Days server!");
+            await ctx.RespondAsync("Server is up, please wait for the WNKRGaming 7 Days server to start. Loomybot is " +
+                $"currently unsure of how to determine this for you, {ctx.User.Mention}, Loomybot is sorry ><");
+        }
     }
 }
